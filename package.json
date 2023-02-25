@@ -1,5 +1,4 @@
 {
-  "type": "module",
   "name": "js-modules",
   "version": "1.0.0",
   "description": "",
@@ -17,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/kumanan12/js-modules/issues"
   },
-  "homepage": "https://github.com/kumanan12/js-modules#readme"
+  "homepage": "https://github.com/kumanan12/js-modules#readme",
+  "dependencies": {
+    "lodash": "^4.17.21",
+    "moment": "^2.29.4"
+  }
 }

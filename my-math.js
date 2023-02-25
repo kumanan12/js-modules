@@ -1,15 +1,15 @@
-export let name = 'Kumanan';
+exports.name = 'Kumanan';
 
 
-export function add(n1,n2) {
+exports.add =  function add(n1,n2) {
     return n1 + n2;
 }
 
-export function sub(n1,n2){
+exports.sub = function sub(n1,n2){
     return n1 -n2;
 
 }
 
-export function divide(n1,n2) {
+exports.divide =  function divide(n1,n2) {
     return n1/n2;
 }
